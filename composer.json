@@ -1,0 +1,17 @@
+{
+    "name": "panos/install-agify",
+    "description": "This plugin is intented to be used so that the AGEify age verification solution can be easily integrated to your WordPress website.",
+    "type": "project",
+    "license": "GPL",
+    "authors": [
+        {
+            "name": "Upcomdev",
+            "email": "websites@upcom.eu"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+	"autoload": {
+		"psr-4": {"AgeifyIncludes\\": "./ageifyIncludes"}
+	}
+}

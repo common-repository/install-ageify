@@ -1,0 +1,163 @@
+@IMPORT url("bootstrap.min.css");
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css?family=Dosis');
+/* CSS Document */
+
+html{
+	font-size: unset !Important;
+}
+
+
+body {	
+	max-width:100%; 
+	background-color: #ffffff; 
+	overflow-x:hidden; 
+}
+.container.content {
+	padding-bottom: 40px; 
+}
+
+/* ToolBar Design */
+#toolbar{ 
+	position:fixed; 
+	top:0px; left:0px; 
+	width:100%; height:50px; 
+	/*background-color:#42A5F5;*/
+	background-color:#14375a;
+	box-shadow: 0px 1px 8px #999; 
+	/*border-bottom: 1px solid #2196F3; */
+	border-bottom:1px solid #14375a;
+	z-index:1000;
+}
+
+#footer {
+	background-color: #14375a;
+	position: fixed;
+	bottom: 0;
+	padding: 15px 0;
+	color: white;
+	margin: 0 auto !important;
+	width: 100%;
+}
+
+#action_logo {
+	position:absolute;
+	top:13px;
+	left:10px;
+	width:80px; 
+	height:22px;
+}
+
+#logo {
+	height: 75px;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 10px;
+}
+
+.fonts_red { 
+	font-family:"Open Sans", sans-serif; 
+	color:#14375a;
+	margin-top: 10px;
+}
+
+.fonts_dark {
+	font-family:"Open Sans", sans-serif; 
+	color:#666;
+	margin-top: 10px;
+}
+
+.userForm {
+	margin: 0 auto;
+	width: 450px;
+}
+
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover,
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover,
+.navbar-default .navbar-nav>li>a {
+    color: #14375a;
+    background-color: inherit;
+    text-transform: uppercase;
+    font-family:"Open Sans", sans-serif; 
+}
+
+@media (min-width: 768px) {
+	.nav.navbar-nav {
+	    float: left;
+	    margin: 12px;
+	}
+}
+
+#ageifyWrapper, #ageifyWrapper a, #ageifyWrapper a:hover {
+	font-family: 'Dosis', sans-serif;
+	color: #ffffff;
+}
+
+#ageifyWrapper .modal-content {
+	background-color: #252f6d;
+	color: #ffffff;
+}
+
+#ageifyWrapper .modal-header {
+	border-bottom: none;
+	padding-bottom: 0;
+	
+}
+#ageifyWrapper h2 {
+	font-family: 'Dosis', sans-serif;
+	color: #ffffff;
+	font-weight: normal;
+}
+#ageifyWrapper h3 {
+	font-family: 'Dosis', sans-serif;
+	color: #ffffff;
+	font-size: 47px;
+	margin-top: 0;
+	font-weight: normal;
+}
+
+#ageifyWrapper h4 {
+	font-family: 'Dosis', sans-serif;
+	color: #ffffff;
+	font-size: 25px;
+	margin-top: 10px;
+	margin-bottom: 25px;
+	font-weight: normal;
+}
+
+#ageifyWrapper .modal-body {
+	padding-top: 0;
+}
+
+#ageifyWrapper .modal-body .notice p{
+	font-size: 18px;
+}
+
+#ageifyWrapper .custom-option {
+	color: #ffffff;
+	border: 1px solid #ffffff;
+	height: 85px;
+	padding: 15px ;
+}
+
+#ageifyWrapper .custom-option label input {
+	margin-top: 12px;
+}
+#ageifyWrapper .custom-option label {
+	font-size: 19px;
+}
+#ageifyWrapper .custom-option label div {
+	margin-top: -13px;
+	    color: white;
+}
+
+#ageifyWrapper .custom-option.green {
+	background-color: #8cc63f;
+	    padding: 20px;
+    font-size: 26px;
+}
+	
+	
+#ageifyWrapper a.verify-button {
+	text-decoration: none;
+}
